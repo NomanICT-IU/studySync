@@ -20,20 +20,26 @@
   text-decoration: none;
 }
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--background-color);
 }
 .container {
   padding: 0 1rem;
   margin: 0 auto;
-  border: 1px solid var(--accent-color);
 }
 /* header section */
+.header-section {
+  position: sticky;
+  top: 0;
+  background-color: var(--background-color);
+  z-index: 100;
+}
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  letter-spacing: 2px;
 }
 .navbar-brand {
   display: flex;
@@ -85,8 +91,9 @@ body {
 .navbar-collapse:hover svg {
   color: var(--link-color);
 }
+
 /* media query */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 821px) {
   .container {
     max-width: 1280px;
   }
