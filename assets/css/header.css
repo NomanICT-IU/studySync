@@ -55,6 +55,7 @@ body {
 }
 .navbar-nav {
   display: none;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 .nav-link {
