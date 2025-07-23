@@ -22,6 +22,7 @@
 .testimonial-title h2 {
   font-size: 2rem;
   letter-spacing: 2px;
+  text-align: center;
 }
 .testimonial-container {
   display: grid;
@@ -57,7 +58,7 @@
 }
 .client-name {
   font-size: 1.3rem;
-  color: var(--accent-color);
+  color: var(--link-color);
 }
 .client-designation {
   color: var(--text-color);
