@@ -93,7 +93,6 @@
 }
 .card-content:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: 1s;
 }
 @media only screen and (min-width: 821px) {
   .features-title {
